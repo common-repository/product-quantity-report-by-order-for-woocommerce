@@ -1,0 +1,30 @@
+
+.wpqo-main { text-align: center; }
+.wpqo-main #table-form { 
+	margin: 50px auto; 
+	text-align: left;
+}
+
+.wpqo-main #table-records {
+	overflow-x:auto;
+}
+.wpqo-main #table-records table {
+    border-collapse: collapse;
+    width: 90%;
+	margin: 0 auto;
+	border: 1px solid #008ABD;
+}
+
+.wpqo-main #table-records th, .wpqo-main #table-records td {
+    text-align: left;
+    padding: 8px;
+}
+
+.wpqo-main #table-records tr { border: 1px solid #008ABD; }
+.wpqo-main #table-records tr:nth-child(even){ background-color: #FFFFFF; }
+
+.wpqo-main #table-records th {
+    background-color: #008ABD;
+    color: #FFFFFF;
+}
+
